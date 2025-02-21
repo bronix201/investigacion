@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+<!-- 20250588 Lenin Marcelo Mata Hernandez--> 
+</head>
+<body>
+    <div>
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, sans-serif;
+                padding-top: 60px; /* Espacio para la barra */
+            }
+            .top-bar {
+                background-color: #333;
+                color: white;
+                padding: 15px 20px; /* Espacio inicial */
+                text-align: center;
+                position: fixed;
+                width: 100%;
+                top: 0;
+                left: 0;
+                z-index: 1000;
+                transition: padding 0.3s, background-color 0.3s; /* Transiciones suaves */
+            }
+            .top-bar.shrink {
+                padding: 5px 20px; /* Espacio reducido */
+                background-color: rgba(51, 51, 51, 0.8); /* Fondo semitransparente */
+            }
+            .top-bar a {
+                color: white;
+                text-decoration: none;
+                margin: 0 10px;
+                font-size: 16px; /* Tamaño de fuente inicial */
+                transition: font-size 0.3s; /* Transición suave para el tamaño de fuente */
+            }
+            .top-bar.shrink a {
+                font-size: 14px; /* Tamaño de fuente reducido */
+            }
+        </style>
+    </head>
+    <body>
+    
+        <div class="top-bar" id="navbar">
+            <h1 style="font-family:cursive;color: rgb(243, 200, 185); margin: 0;">EL MOD</h1>
+            <a href="../20.02.25/DOM.html" style="font-family: cursive;"></a>
+            <a href="../20.02.25/EJERCICIO.html" style="font-family: cursive;">EJERCICIO</a>
+        </div>
+        <div>
+            <style>
+                body {
+                    background-image: url('https://img2.wallspic.com/previews/2/1/6/3/1/113612/113612-los_efectos_especiales-fila-luz-espacio-morado-x750.jpg'); /* URL de la imagen */
+                    background-size: cover; /* Hace que la imagen cubra toda la pantalla */
+                    background-position:center; /* Centra la imagen */
+                }
+            </style>
+        </div>
+        <div>
+            <hr>
+            <hr>
+            <hr>
+        </div>
+    <div>
+        <h1 style="color: aliceblue;">¿que es el DOM?</h1>
+        <p style="color: aliceblue;">el MOD de PSelnt que permite calcular reciduos o el resto de una divisiòn, que las condiciones basicas de la paridad es que el residuo al dividir por 2 cualquier numero sea "0"</p>
+        <img src="../20.02.25/IMG/pselnt.jpg" alt="tinedo"  width="1000" height="380">
+    </div>
+</body>
+</html>
